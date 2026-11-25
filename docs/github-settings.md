@@ -6,7 +6,7 @@ These cannot be set from files in the repo. Do them once after creating the repo
 > which is free with the GitHub Student Developer Pack (education.github.com/pack).
 
 ## 1. Collaborators
-Settings > Collaborators > Add people: add @OmarMahmoud1024 and @Ali-1a with **Write**
+Settings > Collaborators > Add people: add @Ali-1a (B) and @OmarMahmoud1024 (C) with **Write**
 role (not Admin). They must accept the email invite.
 
 ## 2. Merge options

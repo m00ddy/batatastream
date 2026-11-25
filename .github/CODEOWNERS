@@ -5,8 +5,8 @@
 # Folder owners below are informational.
 #
 #   ingest/   -> A  mo     (@m00ddy)       data engineering
-#   ml/       -> B         (@OmarMahmoud1024)   ML and analytics
-#   serving/  -> C         (@Ali-1a)   serving, dashboard, scalability
+#   ml/       -> B         (@Ali-1a)            ML and analytics
+#   serving/  -> C         (@OmarMahmoud1024)   serving, dashboard, scalability
 #   common/   -> agreed by A + B + C first, then mo approves (see CONTRIBUTING.md)
 #   report/   -> everyone, each edits their own essay file
 

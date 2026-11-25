@@ -9,8 +9,8 @@ through a streaming path and a dashboard.
 | Role | Person | Folder |
 |---|---|---|
 | A. Data engineering (ingest, schema, Kafka, dedup, docker-compose) | mo (@m00ddy) | `ingest/` |
-| B. ML and analytics | @OmarMahmoud1024 | `ml/` |
-| C. Serving, dashboard, scalability experiment | @Ali-1a | `serving/` |
+| B. ML and analytics | @Ali-1a | `ml/` |
+| C. Serving, dashboard, scalability experiment | @OmarMahmoud1024 | `serving/` |
 
 ## Repository layout
 ```
@@ -33,6 +33,7 @@ python scripts/download_datasets.py   # TODO (A)
 ```
 
 ## Quick start
+Needs Python 3.11, Java 17 (Spark 3.5 does not start on newer Java), and Docker Desktop.
 ```bash
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt -r requirements-dev.txt
@@ -53,4 +54,5 @@ docker compose up -d                  # TODO (A): Kafka, Postgres, Spark
 
 ## Contributing
 Read [CONTRIBUTING.md](CONTRIBUTING.md) and [docs/workflow.md](docs/workflow.md).
-If you use an AI coding assistant, it must follow [AGENTS.md](AGENTS.md).
+If you use an AI coding assistant, it must follow [AGENTS.md](AGENTS.md). New teammates: paste
+[docs/onboarding-prompt.md](docs/onboarding-prompt.md) into your Claude to get set up.
