@@ -60,6 +60,10 @@ jobs:
           python-version: "3.11"
           cache: pip
           cache-dependency-path: requirements*.txt
-      # Java 17 is preinstalled on ubuntu-latest, which PySpark needs.
+      # Spark 3.5 needs Java 17; the runner's default Java is newer and breaks it.
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
       - run: pip install -r requirements.txt -r requirements-dev.txt
       - run: pytest
