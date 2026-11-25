@@ -1,0 +1,2 @@
+# Runtime dependencies. Ask the team before adding heavy packages or bumping versions.
+pyspark==3.5.3

@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# Secrets and local config
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*.json
+
+# Data and outputs: never commit datasets, use scripts/download_*.py
+data/
+datasets/
+*.parquet
+*.csv
+*.jsonl
+*.json.gz
+*.zip
+*.tar.gz
+checkpoints/
+spark-warehouse/
+metastore_db/
+derby.log
+models/
+mlruns/
+
+# Docker volumes and logs
+volumes/
+*.log
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Report build files (keep the source and final PDF)
+report/*.aux
+report/*.log
+report/*.out
+report/*.toc

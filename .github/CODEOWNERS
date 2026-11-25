@@ -1,0 +1,13 @@
+# CODEOWNERS: GitHub auto-requests these reviewers and, with "Require review
+# from Code Owners" on, a PR cannot merge without one of them approving.
+#
+# mo (@m00ddy) is the only code owner and the only approver.
+# Folder owners below are informational.
+#
+#   ingest/   -> A  mo     (@m00ddy)       data engineering
+#   ml/       -> B         (@OmarMahmoud1024)   ML and analytics
+#   serving/  -> C         (@Ali-1a)   serving, dashboard, scalability
+#   common/   -> agreed by A + B + C first, then mo approves (see CONTRIBUTING.md)
+#   report/   -> everyone, each edits their own essay file
+
+*   @m00ddy
